@@ -158,3 +158,57 @@ footer a {
 footer i {
     padding-right: 10px;
 }
+
+@media (max-width: 768px) {
+    .body {
+        width: 100%;
+    }
+
+    .social_thinking {
+        width: 100%;
+    }
+
+    .section_article {
+        width: 100%;
+    }
+}
+
+@media (max-width: 390px) {
+    .body {
+        width: 100%;
+    }
+
+    .social_thinking {
+        width: 100%;
+    }
+
+    .section_article {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .section_article h2 {
+        font-size: 1.5rem;
+    }
+
+    .section_article img {
+        width: 100%;
+        filter: grayscale(50%);
+    }
+
+    .container {
+        width: 100%;
+        padding: 0
+    }
+
+    .container p {
+        padding: 0 1rem;
+        text-align: center;
+    }
+
+    .container h1 {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+}
